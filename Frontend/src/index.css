@@ -1,0 +1,56 @@
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: #111827;
+  color: white;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.secondary-button {
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.primary-button{
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
